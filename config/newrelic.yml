@@ -3,7 +3,7 @@
 # Ruby, Java, .NET, PHP, and Python applications with deep visibility and low overhead.
 # For more information, visit www.newrelic.com.
 #
-# Generated October 06, 2013
+# Generated November 18, 2013
 #
 # This configuration file is custom generated for PBKOMP
 
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'fc0d7f67a2e1660ae507376c216670be6264005c'
+  license_key: '3ac00bebbafd7a13ecf5ec027387bfec8e93b74b'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
@@ -25,7 +25,7 @@ common: &default_settings
   # completely turn the agent off regardless of the other settings.
   # Valid values are true, false and auto.
   #
-  agent_enabled: auto
+  # agent_enabled: auto
 
   # Application Name Set this to be the name of your application as
   # you'd like it show up in New Relic. The service will then auto-map
@@ -42,7 +42,7 @@ common: &default_settings
   #       - Ajax Service
   #       - All Services
   #
-  app_name: todo
+  app_name: My Application
 
   # When "true", the agent collects performance data about your
   # application and reports this data to the New Relic service at
